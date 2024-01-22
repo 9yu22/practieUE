@@ -29,4 +29,13 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* Water;
 
+	UPROPERTY(VisibleAnywhere)
+	UPointLightComponent* Light;
+
+	UPROPERTY(VisibleAnywhere)
+	UParticleSystemComponent* Splash;
+
+	UPROPERTY(EditAnywhere, Category = ID)
+	int32 ID;
+
 };
